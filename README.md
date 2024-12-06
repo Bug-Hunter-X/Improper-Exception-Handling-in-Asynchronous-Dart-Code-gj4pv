@@ -1,0 +1,3 @@
+# Improper Exception Handling in Asynchronous Dart
+
+This repository demonstrates a common error in Dart asynchronous programming: insufficient error handling. The provided `bug.dart` file showcases code that catches exceptions during an HTTP request but only prints the error message, making debugging difficult. The `bugSolution.dart` file offers improved error handling using a `try-catch` block with rethrowing and stacktrace printing for comprehensive debugging.
